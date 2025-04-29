@@ -17,7 +17,6 @@ import { updateField } from "@/mixins/updateFields"
 import { handleFileSelect, handleDrop } from "@/mixins/handleFileInput"
 import { deleteField } from "@/mixins/deleteField"
 import { AuthContext } from "@/context/AuthProvider"
-import { PostFormData } from "@/types/PostFormData"
 import { redirect } from "next/navigation"
 import { useSearchParams } from "next/navigation"
 import toast from "react-hot-toast"
@@ -45,8 +44,6 @@ const EditPostWrapper = () => {
     const content_id = newsContent.filter(item => item.news_id === Number(id)).map(item => item.content_id)
     const content_post: Field[] = newsRichContent.filter(item => content_id.includes(item.id))
     const [isLoading, setIsLoading] = useState(true)
-    const [postAuthorId, setPostAuthorId] = useState<number>(0)
-    const [currentPostGameId, setCurrentPostGameId] = useState<number>(0)
     const [previewThumbnail, setPreviewThumbnail] = useState<string | undefined>(undefined)
     const [previewThumbnailUrl, setPreviewThumbnailUrl] = useState<string | undefined>(undefined)
     const [teaser, setTeaser] = useState<string>("")
@@ -63,20 +60,6 @@ const EditPostWrapper = () => {
     const [plus, setPlus] = useState("")
     const [minusList, setMinusList] = useState<string[]>([])
     const [minus, setMinus] = useState("")
-    const [formData] = useState<PostFormData>({
-        title: reviewTitle,
-        thumbnail: previewThumbnail ?? "",
-        teaser: teaser,
-        content: content,
-        summaryTitle: summaryTitle,
-        summaryContent: summaryContent,
-        plusList: plusList,
-        minusList: minusList,
-        score: score,
-        publishDate: `${Date.now().toString()}`,
-        author_id: user?.id ?? 1,
-        game_id: selectedGame.id
-    })
 
     const handleAddField = addField(setContent);
     const handleUpdateField = updateField(setContent);
@@ -119,8 +102,6 @@ const EditPostWrapper = () => {
             setPreviewThumbnailUrl(news.thumbnail)
             setPreviewThumbnail(news.thumbnail)
             setSelectedGame({ title: game.title, id: game.id })
-            setCurrentPostGameId(news.game_id)
-            setPostAuthorId(news.author_id)
             setIsLoading(false)
         }
         fetchExistingNews()

@@ -18,7 +18,7 @@ const ArticleAction = ({pageId}: {pageId: number}) => {
                 <LinkButton text="Edytuj artykuł" href={`/dashboard/edit-post?id=${pageId}`} icon="tabler:edit" classes="text-[0px] !rounded-full !w-12 h-12 !p-0 !gap-0 md:!w-full md:text-sm md:!gap-4 md:!px-4 md:!py-2 md:h-auto md:!rounded-lg" backgroundColor="bg-sky-600" />
                 <Button text="Usuń artykuł" event={() => setIsOpen(true)} icon="material-symbols-light:delete-outline-rounded" classes="text-[0px] !rounded-full !w-12 h-12 !p-0 !gap-0 md:!w-full md:text-sm md:!gap-4 md:!px-4 md:!py-2 md:h-auto md:!rounded-lg" backgroundColor="bg-rose-600" />
             </div>
-            {isOpen && <Popup text="Czy na pewno chcesz usunąć artykuł?" event={() => setIsOpen(false)} pageId={pageId} />}
+            {isOpen && <Popup text="Czy na pewno chcesz usunąć artykuł?" event={() => setIsOpen(false)} />}
         </>
     )
 }

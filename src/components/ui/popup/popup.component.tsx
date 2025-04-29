@@ -7,10 +7,9 @@ import toast from "react-hot-toast"
 interface PopupProps {
     text: string
     event?: (open: boolean) => void
-    pageId?: number
 }
 
-const Popup = ({ text, event, pageId }: PopupProps) => {
+const Popup = ({ text, event }: PopupProps) => {
     const deleteArticle = async () => {
         toast.success("Usunięto pomyślnie")
         redirect("/")
