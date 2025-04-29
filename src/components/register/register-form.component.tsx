@@ -4,7 +4,6 @@ import { useState } from "react"
 import FormWrapper from "../ui/form/form-wrapper.component"
 import Button from "../ui/button/button.component"
 import FormInput from "../ui/form/form-input.component"
-import handleRegister from "@/utils/RegisterApi"
 import toast from "react-hot-toast"
 import { redirect } from "next/navigation"
 
@@ -18,18 +17,11 @@ const RegisterForm = () => {
 
     const formSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
-        try {
-            const promise = handleRegister(formData);
-            await toast.promise(promise, {
-                loading: 'Rejestracja...',
-                success: 'Rejestracja pomyślna',
-                error: (err) => err.message || 'Wystąpił błąd podczas rejestracji',
-            })
+        toast.success("Zarejestrowano pomyślnie")
             
-            setTimeout(() => {
-                redirect('/login');
-            },300)
-        } catch(err) {}
+        setTimeout(() => {
+            redirect('/login');
+        },300)
     }
     return (
         <div className="form flex flex-col justify-center w-full max-w-[450px] min-h-[550px] p-4">

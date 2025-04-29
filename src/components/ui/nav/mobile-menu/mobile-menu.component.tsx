@@ -7,7 +7,6 @@ import DropDownElement from "../dropdown/dropdown-element.component"
 import AuthorAvatar from "@/components/author/author-avatar.component"
 import AuthorName from "@/components/author/author-name.component"
 import { Roles } from "@/types/RoleTypes"
-import { Logout } from "@/utils/logout"
 
 interface MobileMenuProps {
     isMobileMenuOpen: boolean

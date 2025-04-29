@@ -2,17 +2,13 @@
 
 import { useState } from "react"
 import FormInput from "../ui/form/form-input.component"
-import handleLogin from "@/utils/LoginApi"
 import Button from "../ui/button/button.component"
 import FormWrapper from "../ui/form/form-wrapper.component"
-import { useContext } from "react"
-import { AuthContext } from "@/context/AuthProvider"
 import { redirect } from "next/navigation"
 import toast from "react-hot-toast"
 
 const LoginForm = () => {
     const [formData, setFormData] = useState({email: '', password: ''})
-    const { setToken } = useContext(AuthContext)!
 
     const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         const { name, value } = e.target;
@@ -21,20 +17,10 @@ const LoginForm = () => {
 
     const formSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
-        try {
-            const promise = handleLogin(formData)
-            await toast.promise(promise, {
-                loading: 'Logowanie...',
-                success: 'Zalogowano pomyślnie',
-                error: (err) => err.message || 'Wystąpił błąd przy logowaniu',
-            })
-            setToken(await promise)
-            
-            setTimeout(() => {
-                redirect('/');
-            },300)
-        } catch (err) {}
-
+        toast.success("Zalogowano pomyślnie")
+        setTimeout(() => {
+            redirect('/');
+        },300)
         setFormData({email: '', password: ''})
     }
     return (

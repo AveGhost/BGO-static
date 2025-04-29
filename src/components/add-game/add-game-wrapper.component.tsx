@@ -5,7 +5,6 @@ import FormInput from "../ui/form/form-input.component"
 import FormSelect from "../ui/form/form-select/form-select.component"
 import Button from "../ui/button/button.component"
 import { platforms, platformValues, platformsLabels, Platform } from "@/types/PlatformTypes"
-import postGame from "@/utils/games/PostGame"
 import { useState } from "react"
 import { redirect } from "next/navigation"
 import toast from "react-hot-toast"
@@ -29,18 +28,10 @@ const AddGameWrapper = () => {
 
     const formSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
-        try {
-            const promise = postGame(formData)
-            await toast.promise(promise, {
-                loading: "Trwa dodawanie gry...",
-                success: "Gra została dodana",
-                error: (err) => err.message || 'Wystąpił błąd przy dodawaniu gry',
-            })
-
-            setTimeout(() => {
-                redirect(`/dashboard/add-post?title=${formData.title}`)
-            }, 500)
-        } catch (err) {}
+        toast.success("Dodano pomyślnie")
+        setTimeout(() => {
+            redirect(`/dashboard/add-post?title=${formData.title}`)
+        }, 500)
     }
 
     return (

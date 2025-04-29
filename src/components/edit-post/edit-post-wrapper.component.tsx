@@ -1,7 +1,5 @@
 'use client'
 
-import getNews from "@/utils/news/GetNews"
-import editNews from "@/utils/news/EditNews"
 import { useEffect, useState, useContext } from "react"
 import FormWrapper from "@/components/ui/form/form-wrapper.component"
 import FormInput from "@/components/ui/form/form-input.component"
@@ -16,7 +14,7 @@ import RatingTableElement from "@/components/ui/article/rating-table-element.com
 import Button from "@/components/ui/button/button.component"
 import { addField } from "@/mixins/addField"
 import { updateField } from "@/mixins/updateFields"
-import { handleFileSelect, handleDragOver, handleDrop } from "@/mixins/handleFileInput"
+import { handleFileSelect, handleDrop } from "@/mixins/handleFileInput"
 import { deleteField } from "@/mixins/deleteField"
 import { AuthContext } from "@/context/AuthProvider"
 import { PostFormData } from "@/types/PostFormData"
@@ -46,24 +44,9 @@ const EditPostWrapper = () => {
     const game = games.find((item) => item.id === Number(news.game_id))!
     const content_id = newsContent.filter(item => item.news_id === Number(id)).map(item => item.content_id)
     const content_post: Field[] = newsRichContent.filter(item => content_id.includes(item.id))
-    console.log(content_post)
     const [isLoading, setIsLoading] = useState(true)
     const [postAuthorId, setPostAuthorId] = useState<number>(0)
     const [currentPostGameId, setCurrentPostGameId] = useState<number>(0)
-    const [existingNews, setExistingNews] = useState<PostFormData>({
-        title: "",
-        thumbnail: "",
-        teaser: "",
-        content: [],
-        summaryTitle: "",
-        summaryContent: "",
-        plusList: [],
-        minusList: [],
-        score: 0,
-        publishDate: `${Date.now().toString()}`,
-        author_id: postAuthorId,
-        game_id: currentPostGameId
-    })
     const [previewThumbnail, setPreviewThumbnail] = useState<string | undefined>(undefined)
     const [previewThumbnailUrl, setPreviewThumbnailUrl] = useState<string | undefined>(undefined)
     const [teaser, setTeaser] = useState<string>("")
@@ -80,7 +63,7 @@ const EditPostWrapper = () => {
     const [plus, setPlus] = useState("")
     const [minusList, setMinusList] = useState<string[]>([])
     const [minus, setMinus] = useState("")
-    const [formData, setFormData] = useState<PostFormData>({
+    const [formData] = useState<PostFormData>({
         title: reviewTitle,
         thumbnail: previewThumbnail ?? "",
         teaser: teaser,
@@ -146,27 +129,20 @@ const EditPostWrapper = () => {
     
     useEffect(() => {
         const fetchExistingNews = async () => {
-            if(!id) return
-            try {
-                const response = await getNews({id: id})
-                setReviewTitle(news.title)
-                setTeaser(news.teaser)
-                setContent(content_post)
-                setSummaryTitle(news.summary_title)
-                setSummaryContent(news.summary_content)
-                setPlusList(news.plus_list)
-                setMinusList(news.minus_list)
-                setScore(news.score)
-                setPreviewThumbnailUrl(news.thumbnail)
-                setPreviewThumbnail(news.thumbnail)
-                setSelectedGame({ title: game.title, id: game.id })
-                setCurrentPostGameId(news.game_id)
-                setPostAuthorId(news.author_id)
-            } catch (error) {
-                console.error(error)
-            } finally {
-                setIsLoading(false)
-            }
+            setReviewTitle(news.title)
+            setTeaser(news.teaser)
+            setContent(content_post)
+            setSummaryTitle(news.summary_title)
+            setSummaryContent(news.summary_content)
+            setPlusList(news.plus_list)
+            setMinusList(news.minus_list)
+            setScore(news.score)
+            setPreviewThumbnailUrl(news.thumbnail)
+            setPreviewThumbnail(news.thumbnail)
+            setSelectedGame({ title: game.title, id: game.id })
+            setCurrentPostGameId(news.game_id)
+            setPostAuthorId(news.author_id)
+            setIsLoading(false)
         }
         fetchExistingNews()
     },[])
@@ -190,7 +166,6 @@ const EditPostWrapper = () => {
         };
         
         const adjustExistingData = {
-            ...existingNews,
             author_id: postAuthorId,
             game_id: currentPostGameId
         }
@@ -201,18 +176,11 @@ const EditPostWrapper = () => {
             return;
         }
 
-        try {
-            const promise = editNews(changedData, id)
-            await toast.promise(promise, {
-                loading: "Edytowanie...",
-                success: "Edytowano!",
-                error: (err) => err.message || 'Wystąpił błąd przy edytowaniu artykułu',
-            })
+        toast.success("Zaktualizowano pomyślnie")
 
-            setTimeout(() => {
-                redirect(`/article/${id}`)
-            },500)
-        } catch (err) {}
+        setTimeout(() => {
+            redirect(`/article/${id}`)
+        },500)
     }
 
     return (

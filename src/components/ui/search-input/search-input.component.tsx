@@ -1,7 +1,6 @@
 'use client'
 
 import FormInput from "../form/form-input.component"
-import { searchGames } from "@/utils/games/SearchGames"
 import { useState, useEffect } from "react"
 
 interface SearchInputProps {
@@ -30,9 +29,7 @@ const SearchInput = ({ onSearchResults, placeholder}: SearchInputProps) => {
 
     useEffect(() => {
         const fetchSearch = async () => {
-            const data = await searchGames({ title: debounceResults})
             setIsSearching(false)
-            onSearchResults(data)
         }
 
         if(debounceResults.length >= 3) {

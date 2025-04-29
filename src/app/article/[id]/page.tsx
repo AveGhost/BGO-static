@@ -16,8 +16,12 @@ interface ArticleItemProps {
     description: string
 }
 
-const SinglePage = async ({params}: {params: {id: number}}) => {
-    const { id } = await params
+interface PageProps {
+    params: { id: string }
+}
+
+const SinglePage = async ({params}: PageProps) => {
+    const id = Number(params.id)
     const news = newsData.content.find((item) => item.id === Number(id))!
     const game = games.find((item) => item.id === Number(news.game_id))!
     const content_id = newsContent.filter(item => item.news_id === Number(id)).map(item => item.content_id)

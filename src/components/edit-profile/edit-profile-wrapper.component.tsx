@@ -4,7 +4,6 @@ import FormWrapper from "@/components/ui/form/form-wrapper.component"
 import FormInput from "@/components/ui/form/form-input.component"
 import Button from "@/components/ui/button/button.component"
 import FormTextArea from "../ui/form/form-textarea.component"
-import editUser from "@/utils/user/UserUpdate"
 import { useState, useContext, useEffect } from "react"
 import { AuthContext } from "@/context/AuthProvider"
 import toast from "react-hot-toast"
@@ -13,8 +12,8 @@ import UploadImage from "../ui/add-edit-post/upload-image.component"
 import PreviewImage from "../ui/add-edit-post/preview-image.component"
 import Loading from "./loading"
 const EditProfileWrapper = () => {
-    const { user, setUser } = useContext(AuthContext)!
-    const [avatar, setAvatar] = useState<string | undefined>(user?.avatarUrl)
+    const { user } = useContext(AuthContext)!
+    const [avatar, setAvatar] = useState<string | undefined>(user.avatar_url || undefined)
     const [avatarUrl, setAvatarUrl] = useState<string | undefined>()
     const [formData, setFormData] = useState({
         email: "", 
@@ -27,10 +26,10 @@ const EditProfileWrapper = () => {
     useEffect(() => {
         setFormData({
             email: user?.email || "",
-            first_name: user?.firstName || "",
-            last_name: user?.lastName || "",
+            first_name: user?.first_name || "",
+            last_name: user?.last_name || "",
             bio: user?.bio || "",
-            avatar_url: user?.avatarUrl || "",
+            avatar_url: user?.avatar_url || "",
         })
     }, [user])
 
@@ -40,24 +39,11 @@ const EditProfileWrapper = () => {
     };
     const formSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
-        const updatedFormData = {
-            ...formData,
-            avatar_url: avatar,
-        };
-        try {
-            const promise = editUser(updatedFormData);
-            const updatedUser = await toast.promise(promise, {
-                loading: 'Zapisywanie...',
-                success: 'Zapisano pomyślnie',
-                error: (err) => err.message || 'Wystąpił błąd podczas zapisywania',
-            })
+        toast.success("Zapisano pomyślnie")
 
-            setUser(updatedUser);
-            
-            setTimeout(() => {
-                redirect('/');
-            },300)
-        } catch(err) {}
+        setTimeout(() => {
+            redirect('/');
+        },300)
     }
 
     if(!user) return <Loading />

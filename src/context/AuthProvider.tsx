@@ -11,7 +11,7 @@ interface AuthContextProps {
 export const AuthContext = createContext<AuthContextProps | null>(null);
 
 const AuthProvider = ({ children }: { children: React.ReactNode }) => {
-    const [user, setUser] = useState(users[0]);
+    const [user] = useState(users[0]);
 
 
     return (
