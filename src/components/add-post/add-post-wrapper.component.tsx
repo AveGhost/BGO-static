@@ -91,10 +91,6 @@ const AddPostWrapper = () => {
         setMinusList(prevMinusList => prevMinusList.filter((_, index) => index !== id))
     }
 
-    const chooseGame = (game: string, id?: number) => {
-        setSelectedGame({ title: game , id: id ?? 0 })
-    }
-
     const removeGame = () => {
         setSelectedGame({ title: "", id: 0 })
     }
@@ -205,7 +201,7 @@ const AddPostWrapper = () => {
                 {selectedGame.title ?
                     <SelectedGame text={selectedGame.title} event={removeGame} />
                 : 
-                    <SearchBox event={chooseGame} />
+                    <SearchBox />
                 }
                 <FormInput 
                     icon="material-symbols:title-rounded" 

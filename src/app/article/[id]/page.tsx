@@ -17,11 +17,11 @@ interface ArticleItemProps {
 }
 
 interface PageProps {
-    params: { id: string }
+    params: Promise<{ id: string }>;
 }
 
 const SinglePage = async ({params}: PageProps) => {
-    const id = Number(params.id)
+    const { id } = await params;
     const news = newsData.content.find((item) => item.id === Number(id))!
     const game = games.find((item) => item.id === Number(news.game_id))!
     const content_id = newsContent.filter(item => item.news_id === Number(id)).map(item => item.content_id)
@@ -41,7 +41,7 @@ const SinglePage = async ({params}: PageProps) => {
                     </div>
                 </div>
             </div>
-            <ArticleAction pageId={id} />
+            <ArticleAction pageId={Number(id)} />
         </section>
     )
 }
