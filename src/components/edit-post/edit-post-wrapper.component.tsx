@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useState, useContext } from "react"
+import { useEffect, useState } from "react"
 import FormWrapper from "@/components/ui/form/form-wrapper.component"
 import FormInput from "@/components/ui/form/form-input.component"
 import FormFile from "@/components/ui/form/form-file/form-file.component"
@@ -16,7 +16,6 @@ import { addField } from "@/mixins/addField"
 import { updateField } from "@/mixins/updateFields"
 import { handleFileSelect, handleDrop } from "@/mixins/handleFileInput"
 import { deleteField } from "@/mixins/deleteField"
-import { AuthContext } from "@/context/AuthProvider"
 import { redirect } from "next/navigation"
 import { useSearchParams } from "next/navigation"
 import toast from "react-hot-toast"
@@ -38,7 +37,6 @@ interface GameProps {
 const EditPostWrapper = () => {
     const searchParams = useSearchParams()
     const id: number = parseInt(searchParams.get('id')!)
-    const user = useContext(AuthContext)?.user
     const news = newsData.content.find((item) => item.id === Number(id))!
     const game = games.find((item) => item.id === Number(news.game_id))!
     const content_id = newsContent.filter(item => item.news_id === Number(id)).map(item => item.content_id)
