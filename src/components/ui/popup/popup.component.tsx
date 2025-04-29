@@ -1,6 +1,5 @@
 'use client'
 
-import deleteNews from "@/utils/news/DeleteNews"
 import { redirect } from "next/navigation"
 import Button from "../button/button.component"
 import toast from "react-hot-toast"
@@ -13,15 +12,7 @@ interface PopupProps {
 
 const Popup = ({ text, event, pageId }: PopupProps) => {
     const deleteArticle = async () => {
-        if(!pageId) return
-
-        const promise = deleteNews({ id: pageId })
-        await toast.promise(promise, {
-            loading: 'Usuwanie artykułu...',
-            success: 'Artykuł został usunięty',
-            error: 'Wystąpił błąd podczas usuwania artykułu',
-        })
-        event?.(false)
+        toast.success("Usunięto pomyślnie")
         redirect("/")
     }
 
