@@ -1,0 +1,114 @@
+[
+  {
+    "json_agg": [
+      {
+        "game_id": 1,
+        "categories": 0
+      },
+      {
+        "game_id": 1,
+        "categories": 1
+      },
+      {
+        "game_id": 2,
+        "categories": 0
+      },
+      {
+        "game_id": 2,
+        "categories": 1
+      },
+      {
+        "game_id": 3,
+        "categories": 0
+      },
+      {
+        "game_id": 4,
+        "categories": 0
+      },
+      {
+        "game_id": 4,
+        "categories": 1
+      },
+      {
+        "game_id": 5,
+        "categories": 0
+      },
+      {
+        "game_id": 5,
+        "categories": 4
+      },
+      {
+        "game_id": 6,
+        "categories": 0
+      },
+      {
+        "game_id": 6,
+        "categories": 1
+      },
+      {
+        "game_id": 7,
+        "categories": 0
+      },
+      {
+        "game_id": 7,
+        "categories": 4
+      },
+      {
+        "game_id": 8,
+        "categories": 0
+      },
+      {
+        "game_id": 8,
+        "categories": 4
+      },
+      {
+        "game_id": 9,
+        "categories": 0
+      },
+      {
+        "game_id": 10,
+        "categories": 0
+      },
+      {
+        "game_id": 10,
+        "categories": 4
+      },
+      {
+        "game_id": 11,
+        "categories": 0
+      },
+      {
+        "game_id": 11,
+        "categories": 1
+      },
+      {
+        "game_id": 12,
+        "categories": 0
+      },
+      {
+        "game_id": 12,
+        "categories": 4
+      },
+      {
+        "game_id": 13,
+        "categories": 0
+      },
+      {
+        "game_id": 14,
+        "categories": 0
+      },
+      {
+        "game_id": 15,
+        "categories": 0
+      },
+      {
+        "game_id": 15,
+        "categories": 4
+      },
+      {
+        "game_id": 16,
+        "categories": 0
+      }
+    ]
+  }
+]

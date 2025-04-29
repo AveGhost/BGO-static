@@ -1,0 +1,114 @@
+[
+      {
+        "id": 1,
+        "cover_image": "https://store-images.s-microsoft.com/image/apps.18685.14601317961808017.7b103743-3dbd-479d-b77a-f82e7f0548c6.117374c6-d4eb-4046-a93b-2e60c73df398?q=90&w=480&h=270",
+        "description": "Trzynasta główna odsłona serii gier akcji Ubisoftu. W Assassin's Creed: Shadows trafiamy do feudalnej Japonii i wcielamy się w dwie postacie – shinobi Naoe oraz czarnoskórego samuraja Yasuke. Na tle poprzednich części tytuł wyróżnia m.in. przebudowany system skradania.",
+        "platform": "XBOX",
+        "title": "Assassin's Creed: Shadows"
+      },
+      {
+        "id": 2,
+        "cover_image": "https://store-images.s-microsoft.com/image/apps.28359.13756178220832359.b47fa0aa-4556-4117-82a2-a06b869c8fed.c5295d03-695b-49d3-9c97-07a6c7c9a2d2?q=90&w=480&h=270",
+        "description": "Gra RPG akcji TPP, należąca do bestsellerowej serii od firmy Capcom. W Monster Hunter: Wilds trafiamy do dzikiej krainy pustyń i sawann, w której, zgodnie z tradycją cyklu, polujemy na rozmaite bestie. Tytuł czerpie z dorobku poprzedników, ale też wprowadza pewne nowości.",
+        "platform": "PC",
+        "title": "Monster Hunter Wilds"
+      },
+      {
+        "id": 3,
+        "cover_image": "https://planetagracza.pl/wp-content/uploads/2025/03/split-fiction.jpg",
+        "description": "Przygodowa gra akcji TPP, będąca trzecim dziełem studia Hazelight – autorów A Way Out oraz It Takes Two. W Split Fiction można grać tylko w trybie współpracy, a wcielamy się tu w pisarki, które utknęły w światach fantasy i sci-fi ze swoich opowiadań.",
+        "platform": "PLAYSTATION",
+        "title": "Split Fiction"
+      },
+      {
+        "id": 4,
+        "cover_image": "https://planetagracza.pl/wp-content/uploads/2025/01/tails-of-iron-ii-whiskers-of-winter-recenzja-gry.webp",
+        "description": "Kontynuacja ciepło przyjętej gry z pogranicza action-adventure i RPG akcji typu soulslike w 2D, w której wcielamy się w walecznego szczura. Narratorem opowieści jest Doug Cockle (aktor dubbingowy znany z roli Geralta w angielskich wersjach gier z serii Wiedźmin).",
+        "platform": "PC",
+        "title": "Tails of Iron II: Whiskers of Winter"
+      },
+      {
+        "id": 5,
+        "cover_image": "https://planetagracza.pl/wp-content/uploads/2024/11/stalker-2-recenzja-gry.webp",
+        "description": "STALKER 2: Heart of Chornobyl to wyprodukowana przez ukraińskie studio GSC Game World, druga część kultowej serii FPS-ów. Tytuł ponownie przenosi graczy do postapokaliptycznej Zony, tym razem oddając w ich ręce rozległy otwarty świat.",
+        "platform": "XBOX",
+        "title": "STALKER 2: Heart of Chornobyl"
+      },
+      {
+        "id": 6,
+        "cover_image": "https://planetagracza.pl/wp-content/uploads/2024/11/dragon-age-the-veilguard-recenzja-pg2.webp",
+        "description": "Czwarta główna część serii gier RPG od studia BioWare, w której stajemy na czele tytułowej Straży Zasłony broniącej Thedas przed demonami i bóstwami z Pustki. Dragon Age: The Veilguard wprowadza m.in. nowych towarzyszy oraz bardziej nastawiony na akcję system walki.",
+        "platform": "PLAYSTATION",
+        "title": "Dragon Age: The Veilguard"
+      },
+      {
+        "id": 7,
+        "cover_image": "https://planetagracza.pl/wp-content/uploads/2024/09/silent-hill-2-remake-recenzja-pg.webp",
+        "description": "Remake kultowego survival horroru od firmy Konami, opracowany przez polskie studio Bloober Team. Na tle pierwowzoru Silent Hill 2 wyróżnia się głównie za sprawą nowej oprawy graficznej, gruntownie przebudowanego systemu walki, a także m.in. odświeżonego wyglądu postaci.",
+        "platform": "PLAYSTATION",
+        "title": "Silent Hill 2 Remake"
+      },
+      {
+        "id": 8,
+        "cover_image": "https://store-images.s-microsoft.com/image/apps.59326.13900499180666760.458aa769-73f7-453f-a5e7-dd4352ad4d49.f441265a-e34b-47ec-9c71-9b15468cc73b?q=90&w=480&h=270",
+        "description": "Reboot kultowej serii horrorów zapoczątkowanej w 1992 roku. W Alone in the Dark trafiamy do posiadłości Derceto, którą przemierzamy w skórze Emily Hartwood i Edwarda Carnby’ego. Protagoniści badają tajemnice tego miejsca i stawiają czoła potworom, które je opanowały.",
+        "platform": "PC",
+        "title": "Alone in the Dark"
+      },
+      {
+        "id": 9,
+        "cover_image": "https://planetagracza.pl/wp-content/uploads/2024/01/the-last-of-us-part-ii-remastered-recenzja-1.webp",
+        "description": "Odświeżona wersja przygodowej gry akcji The Last of Us: Part II, która wykorzystuje możliwości PS5 i PC. Edycja Remastered oferuje nie tylko lepszą grafikę, ale też dodatkowe tryby gry, a także szansę zobaczenia poziomów wyciętych z finalnego produktu w niedokończonej formie.",
+        "platform": "PC",
+        "title": "The Last of Us Part II Remastered"
+      },
+      {
+        "id": 10,
+        "cover_image": "https://planetagracza.pl/wp-content/uploads/2023/11/alan-wake-2-recenzja-pg.webp",
+        "description": "Alan Wake 2 to survival horror będący bezpośrednią kontynuacją gry z 2010 roku. Produkcja ponownie pozwala nam przenieść się do miasteczka Bright Falls i wraz z dwójką grywalnych postaci (tytułowym bohaterem i agentką FBI Sagą Anderson) stanąć do walki z mrocznymi siłami.",
+        "platform": "XBOX",
+        "title": "Alan Wake 2"
+      },
+      {
+        "id": 11,
+        "cover_image": "https://store-images.s-microsoft.com/image/apps.38223.13814785456466922.0fef76f8-710d-4aca-b42f-c45e536f8d2b.0570d0b7-cf5e-4106-84d7-fa031e67d49f?q=90&w=480&h=270",
+        "description": "Hogwarts Legacy to trzecioosobowa gra RPG akcji z otwartym światem, która została osadzona w uniwersum Harry’ego Pottera. Wcielamy się w młodego czarodzieja (lub czarodziejkę), który w XIX wieku trafia do tytułowej szkoły magii i czarodziejstwa.",
+        "platform": "XBOX",
+        "title": "Hogwarts Legacy"
+      },
+      {
+        "id": 12,
+        "cover_image": "https://store-images.s-microsoft.com/image/apps.59830.13558336166432541.beb57fbe-cc4b-40c5-ba76-c8112867dea2.f764a45c-f860-483f-b264-aa9041f2bb62?q=90&w=480&h=270",
+        "description": "Druga część serii osadzonych w średniowieczu, przygodowych gier akcji TPP. W A Plague Tale: Requiem po raz kolejny śledzimy losy Amicii i Hugo – rodzeństwa walczącego o przetrwanie w kraju ogarniętym wojną i stawiającym czoła tytułowej pladze.",
+        "platform": "PC",
+        "title": "A Plague Tale: Requiem"
+      },
+      {
+        "id": 13,
+        "cover_image": "https://store-images.s-microsoft.com/image/apps.14679.13754210357812593.c3c8aa7a-e063-438f-8dc1-02c5d4abfd95.b555e954-35b4-47f6-87fb-405136d7273e?q=90&w=480&h=270",
+        "description": "Przygodówka akcji TPP, w której wcielamy się w kota poruszającego się po cyberpunkowym mieście, zamieszkanym jednak nie przez ludzi, lecz roboty. Stray to produkcja stworzona przez Blue Twelve Studio i wydana przez Annapurna Interactive.",
+        "platform": "PLAYSTATION",
+        "title": "Stray"
+      },
+      {
+        "id": 14,
+        "cover_image": "https://store-images.s-microsoft.com/image/apps.46224.14052892748053496.f9ce8da1-6b92-455c-aa03-40ea280c0711.a321d282-3c97-4dd8-85f1-69c78b0f5e48?q=90&w=480&h=270",
+        "description": "Filmowa przygodówka utrzymana w konwencji horroru, opracowana przez studio Supermassive Games. W The Quarry przejmujemy kontrolę nad dziewięciorgiem wychowawców obozu letniego, którzy muszą walczyć o przetrwanie, stawiając czoła wynaturzonym miejscowym.",
+        "platform": "PC",
+        "title": "The Quarry"
+      },
+      {
+        "id": 15,
+        "cover_image": "https://store-images.s-microsoft.com/image/apps.31816.14072389794389914.90aeb86c-4e88-472c-b115-068ef5312f99.41550b5c-c31d-4c9d-9f88-029d16c1f07f?q=90&w=480&h=270",
+        "description": "Kooperacyjna strzelanka FPP, w której gracze trafiają do świata opanowanego przez zombie. Back 4 Blood jest dziełem zespołu Turtle Rock Studios, który wcześniej stworzył między innymi takie pozycje jak Evolve czy bestsellerowe Left 4 Dead.",
+        "platform": "XBOX",
+        "title": "Back 4 Blood"
+      },
+      {
+        "id": 16,
+        "cover_image": "https://store-images.s-microsoft.com/image/apps.26641.14634955238674857.649b7ff9-0dfc-4951-9b65-c5d815215da6.bacdd878-0313-4c58-9434-459afd7cf535?q=90&w=480&h=270",
+        "description": "Deathloop to strzelanka FPP od zespołu Arkane Studios (twórców serii Dishonored i Prey), wydana przez firmę Bethesda Softworks. Śledzimy losy nietypowej pary zabójców pogrążonych w wiecznej walce i próbujemy przerwać niekończący się cykl.",
+        "platform": "XBOX",
+        "title": "Deathloop"
+      }
+]

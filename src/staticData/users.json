@@ -1,0 +1,13 @@
+[
+    {
+      "id": 1,
+      "avatar_url": null,
+      "bio": null,
+      "created_at": "2025-04-22T22:07:12.107",
+      "email": "admin@bettergamesonline.pl",
+      "first_name": "Admin",
+      "last_name": "Admin",
+      "password": "{bcrypt}$2a$12$GrpCfX71.jkBVtAesK5WC.KdwVKebzOhyT3wUVKWFaaOBMzPTJKoK",
+      "user_role": "ADMINISTRATOR"
+    }
+]

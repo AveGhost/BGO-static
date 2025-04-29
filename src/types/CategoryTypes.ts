@@ -1,0 +1,1 @@
+export type Category = 'ACTION' | 'RPG' | 'MMO' | 'FIGHTING' | 'SURVIVAL';

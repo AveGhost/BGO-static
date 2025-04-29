@@ -1,0 +1,409 @@
+{
+    "content": [
+      {
+        "id": 1,
+        "created_at": "2025-04-22T23:00:02.633",
+        "minus_list": [
+          "muzyka czasem kompletnie nie pasowała do sytuacji",
+          "momentami drewniane dialogi i generalnie bardzo (za) dużo gadania",
+          "sporadyczne błędy w polskim tłumaczeniu",
+          "animacje twarzy jak sprzed dekady",
+          "zdecydowanie za dużo powtarzalnych zadań typu zabij 100 bandytów",
+          "zdecydowanie za mało angażujących zadań pobocznych"],
+        "plus_list": [
+          "feudalna Japonia zachwyca pięknymi widokami i świetnym klimatem",
+          "dobry prolog, który wreszcie nie odstrasza",
+          "całkiem niezła historia, niekiedy zaskakująca czy nawet wzruszająca",
+          "dwójka głównych bohaterów, którzy mają charakter, a nie są jedynie ruszającymi się twarzami",
+          "walka jest dobra i wciągająca (zarówno jako Naoe, jak i Yasuke), a przeciwnicy nie są już aż tak głupi",
+          "kotwiczka na linie była naprawdę świetnym pomysłem",
+          "zarządzanie kryjówką"
+        ],
+        "publish_date": "2025-04-22T23:00:02.539",
+        "score": 6,
+        "summary_content": "Shadows raczej spodoba się wielu fanom serii. Nie wszystkim. Ale tych z zewnątrz prawdopodobnie niczym za bardzo nie zadowoli.",
+        "summary_title": "Nie jest to Ghost of Tsushima, ale nie jest to też jedna wielka tragedia",
+        "teaser": "Assassin’s Creed: Shadows nie jest złą grą, ale nie jest też grą świetną. Ubisoft gdzieś się pogubił i zapomniał, że gracze naprawdę nie chcą bezwartościowych zapychaczy na wielkiej mapie. Pewne rzeczy, które denerwowały absolutnie wszystkich, pojawiły się po raz kolejny. Niektóre faktycznie zostały ulepszone. Nowego to tu niewiele, ale jednak coś tam jest. Krótko mówiąc: bez szału.",
+        "thumbnail": "https://planetagracza.pl/wp-content/uploads/2025/03/recenzja-gry-assassins-creed-shadows-ubisoft-znow-gdzies-zabladzil.webp",
+        "title": "Recenzja gry Assassin’s Creed: Shadows. Ubisoft znów gdzieś zabłądził",
+        "author_id": 1,
+        "game_id": 1
+      },
+      {
+        "id": 2,
+        "created_at": "2025-04-22T23:06:50.04",
+        "minus_list": [
+          "Optymalizacja",
+          "Nierówna oprawa (na PC)",
+          "Przez pierwsze 13 - 15 godzin jest aż zbyt prosto, MH Wilds mocno ciągnie gracza za rękę"
+        ],
+        "plus_list": [
+          "Fantastycznie zaprojektowany świat, cały \"ekosystem\"",
+          "Genialna mechanika walki z wieloma ulepszeniami",
+          "Zaskakująco solidna fabuła",
+          "Bogaty i wciągający end game"
+        ],
+        "publish_date": "2025-04-22T23:06:49.965",
+        "score": 8,
+        "summary_content": "Monster Hunter Wilds to praktycznie ulepszenia w każdym elemencie całej formuły serii, a także najbardziej przystępna i przyjemna w obyciu odsłona w historii cyklu Capcomu.",
+        "summary_title": "Cały ekosystem zamknięty w jednej, wciągającej produkcji",
+        "teaser": "Spędziłem z Monster Hunter Wilds sporo czasu, więc nie tylko poznałem tę grę wzdłuż i wszerz, ale i mogłem przetestować praktycznie każdą jej funkcję i możliwość. Mimo solidnego wątku głównego, najnowszy Monster Hunter potrafi zaskoczyć po wielu godzinach zabawy, nawet po ukończeniu fabuły. Jestem zachwycony. Tym bardziej imponujące, że to seria, do której nigdy nie pałałem wielką miłością.",
+        "thumbnail": "https://planetagracza.pl/wp-content/uploads/2025/03/monster-hunter-wilds-recenzja111.webp",
+        "title": "Recenzja Monster Hunter Wilds. Gildia zezwala na pochwalenie tej gry",
+        "author_id": 1,
+        "game_id": 2
+      },
+      {
+        "id": 3,
+        "created_at": "2025-04-22T23:12:43.477",
+        "minus_list": [
+          "W niektórych momentach odradzanie się do dopracowania"
+        ],
+        "plus_list": [
+          "Dwie różne, ale jednakowo świetne bohaterki",
+          "Mnóstwo zróżnicowanych lokacji",
+          "Mechaniki dopracowane do perfekcji",
+          "Genialna zabawa dla doświadczonych i nowicjuszy",
+          "To jest po prostu szalenie wciągające",
+          "Gra nie cierpi na żadne większe błędy"
+        ],
+        "publish_date": "2025-04-22T23:12:43.432",
+        "score": 9,
+        "summary_content": "Split Fiction kontynuuje trend i jest kolejną bliską perfekcji grą wideo dla dwóch osób",
+        "summary_title": "Genialna kooperacja po raz kolejny",
+        "teaser": "Po takich produkcjach jak It Takes Two można od studia Hazelight odpowiedzialnego za Split Fiction oczekiwać wiele. Główny twórca, czyli Josef Fares zapowiadał kolejne genialne doświadczenie dla dwóch graczy – czy jednak udało się powtórzyć sukces poprzednich produkcji? Sprawdźmy, jak radzi sobie najnowsza gra kooperacyjna, w której dwójka osób wcieli się w dwie… naprawdę wyraziste postaci.",
+        "thumbnail": "https://planetagracza.pl/wp-content/uploads/2025/03/split-fiction.jpg",
+        "title": "Recenzja Split Fiction. Najlepsza gra do kooperacji w 2025 roku?",
+        "author_id": 1,
+        "game_id": 3
+      },
+      {
+        "id": 4,
+        "created_at": "2025-04-22T23:17:58.302",
+        "minus_list": [
+          "Napisy zajmujące czasami pół ekranu",
+          "Dziwaczne skoki poziomu trudności",
+          "Mniejsze niedociągnięcia"
+        ],
+        "plus_list": [
+          "Klimat i świat",
+          "Wyjątkowa, wpadająca w oko i ucho oprawa",
+          "Nadal świetny system walki (nieco poprawiony)",
+          "Mechaniki rodem z Monster Hunter"
+        ],
+        "publish_date": "2025-04-22T23:17:58.249",
+        "score": 8,
+        "summary_content": "Dzięki systemom rodem z Monster Huntera, skojarzeniom z Wiedźminem czy Grą o Tron, Tails of Iron II: Whiskers of Winter okazuje się jednym z najciekawszych indyków ostatnich miesięcy",
+        "summary_title": "Tails of Iron II: Whiskers of Winter to odważna gra indie, wprowadzająca oczekiwany powiew świeżości",
+        "teaser": "Tails of Winter II: Whiskers of Winter, odkąd tylko nadrobiłem pierwszą część, było jedną z moich najbardziej wyczekiwanych indie premier tego roku. Twórcy obiecywali wiele – skrzyżowanie Monster Huntera z Wiedźminem i klimatem rodem z Gry o Tron. Ambicje są wielkie, ale czy niewielki zespół podołał? Jeśli liczycie, że da się na to odpowiedzieć prosto, to Was zawiodę – podołał, „ale”…",
+        "thumbnail": "https://planetagracza.pl/wp-content/uploads/2025/01/tails-of-iron-ii-whiskers-of-winter-recenzja-gry.webp",
+        "title": "Recenzja Tails of Iron II: Whiskers of Winter. Wiedźmin, Gra o Tron i Monster Hunter w szczurzym stali domu",
+        "author_id": 1,
+        "game_id": 4
+      },
+      {
+        "id": 5,
+        "created_at": "2025-04-22T23:25:11.051",
+        "minus_list": [
+          "Zabugowany bałagan",
+          "Wydajnością nie grzeszy...",
+          "Mechanika strzelania nie jest pierwszych lotów"
+        ],
+        "plus_list": [
+          "Fantastyczny klimat - za to kochamy STALKER-a!",
+          "Intrygujący scenariusz, szczególnie w drugiej połowie przygody",
+          "Tona zawartości",
+          "Niepowtarzalny świat zachęcający do eksploracji",
+          "Bardzo sensowny poziom trudności"
+        ],
+        "publish_date": "2025-04-22T23:25:10.975",
+        "score": 7,
+        "summary_content": "Imponująca pod względem zawartości i mechanik szalenie klimatyczne i immersyjna przygoda, która wymaga jeszcze wielu aktualizacji - taki właśnie jest STALKER 2: Heart of Chornobyl.",
+        "summary_title": "STALKER 2: Heart of Chornobyl to stary, kochany STALKER, ale w nowszym wydaniu",
+        "teaser": "STALKER 2 po tak długim oczekiwaniu stał się faktem. 15 lat po wydaniu ostatniej gry z serii znów możemy wrócić do Zony i jest powrót tak samo fascynujący, jak i bolesny. Absolutnie nie da się odmówić twórcom z GSC Game World braku wyobraźni, ale czysto techniczne problemy mogą przyćmić rozpalone miłością serca do Zony nawet największych stalkerów.",
+        "thumbnail": "https://planetagracza.pl/wp-content/uploads/2024/11/stalker-2-recenzja-gry.webp",
+        "title": "Recenzja STALKER 2: Heart of Chornobyl. Bałagan w Zonie, ale jakże klimatyczny",
+        "author_id": 1,
+        "game_id": 5
+      },
+      {
+        "id": 6,
+        "created_at": "2025-04-22T23:30:13.537",
+        "minus_list": [
+          "ale w drugiej połowie gry",
+          "ale interakcje z nimi i dialogi to \"krindżuwa\"",
+          "ale kompletnie niefunkcjonalne",
+          "ale cierpiący na kilka mniejszych bolączek"
+        ],
+        "plus_list": [
+          "Angażujący scenariusz...",
+          "Ciekawi towarzysze i ich zadania...",
+          "Fajna oprawa wizualna i przepiękne lokacje...",
+          "Efektowny, dynamiczny system walki..."
+        ],
+        "publish_date": "2025-04-22T23:30:13.483",
+        "score": 5,
+        "summary_content": "Dragon Age: The Veilguard jest RPG-iem \"pół na pół\". Jedna połowa urzeka i wciąga, a druga może zmęczyć nawet największych fanów serii.",
+        "summary_title": "Połowiczny powrót do formy w postaci Dragon Age: The Veilguard",
+        "teaser": "Czekaliśmy na ten moment od 2019 roku, a tak naprawdę to od 2014, kiedy premierę miała Inkwizycja. Dragon Age: The Veilguard nie jest niestety jak Inkwizycja i pozornie bardzo mało przypomina to, do czego BioWare nas przyzwyczaiło. Tak naprawdę to tytuł tak odmienny już w samym podejściu, że na otwarcie nie zaskarbił sobie sympatii niektórych nawet największych fanów serii. Trochę niesłusznie, a trochę jednak słusznie.",
+        "thumbnail": "https://planetagracza.pl/wp-content/uploads/2024/11/dragon-age-the-veilguard-recenzja-pg2.webp",
+        "title": "Recenzja Dragon Age: The Veilguard. Bolesny powrót do formy",
+        "author_id": 1,
+        "game_id": 6
+      },
+      {
+        "id": 7,
+        "created_at": "2025-04-22T23:38:06.237",
+        "minus_list": [
+          "Problemy z interakcją z przedmiotami i środowiskiem",
+          "Drobne przycięcia i graficzne detale"
+        ],
+        "plus_list": [
+          "Ta sama, wciągająca, przepełniona emocjami historia, a nawet lepiej poprowadzona!",
+          "Świetna oprawa",
+          "Audio i muzyka (Yamaoka! Reikowski!)",
+          "Fenomenalny, ponury, miejscami przerażający klimat",
+          "Angażujące zagadki",
+          "Fajny system walki/strzelania",
+          "Aktorzy głosowi spisali się jak nigdy"
+        ],
+        "publish_date": "2025-04-22T23:38:06.151",
+        "score": 10,
+        "summary_content": "Kultowe dzieło grozy powróciło i to nawet w lepszej formie niż oryginał!",
+        "summary_title": "Jedyny słuszny remake legendy",
+        "teaser": "Należałem do sceptyków w stosunku do Silent Hill 2 Remake. Konami przez lata zapomniało, jak robić dobre gry, a Bloober Team raczej tworzy tytuły co najwyżej „niezłe”. Pokazy nie napawały optymizmem, przecieki wydawały się pogrążać wszystko jeszcze bardziej, a i cała ta sytuacja między wydawcą a krakowskim studiem wydawała się wyjątkowo dziwna. I teraz powiedzcie mi – twórcy – jakim cudem Wam się to udało? Bo udało się, co do tego nie ma wątpliwości.",
+        "thumbnail": "https://planetagracza.pl/wp-content/uploads/2024/09/silent-hill-2-remake-recenzja-pg.webp",
+        "title": "Recenzja Silent Hill 2 Remake. Bloober, jak wyście to zrobili…?",
+        "author_id": 1,
+        "game_id": 7
+      },
+      {
+        "id": 8,
+        "created_at": "2025-04-22T23:48:33.391",
+        "minus_list": [
+          "Nierówna oprawa wizualna",
+          "Walka wręcz jest koszmarna, strzelanie ledwo \"poprawne\", a skradanie bezcelowe",
+          "Nie straszy nawet przez moment",
+          "Pojedyncze bugi, problemy z kolizją"
+        ],
+        "plus_list": [
+          "Ciekawy scenariusz, oferujący inną historię niż ta z oryginału",
+          "Potężny klimat Lovecrafta, południowego gotyku, noire, lat 20. i nie tylko",
+          "Ciekawe zagadki, choć niektóre zbyt łatwe",
+          "Fantastyczna warstwa audio, z muzyką i \"żyjącym\" domostwem na czele",
+          "Jodie Comer i David Harbour"
+        ],
+        "publish_date": "2025-04-22T23:48:33.313",
+        "score": 6,
+        "summary_content": "Alone in the Dark w nowej wersji to sprawiająca tonę frajdy przygoda, która jednak nie jest w stanie w pełni sprostać współczesnym standardom",
+        "summary_title": "Gotycka przygoda w klimatach Lovecrafta z niedociągnięciami",
+        "teaser": "Nowe Alone in the Dark to po części reboot, a po części remake, z wyraźnymi inspiracjami odświeżeniami pokroju Resident Evil 2. Nie oczekujcie jednak tej samej wzorowej jakości, choć nie mogę powiedzieć, że będziecie się źle bawili. Pieces Interactive to nie Capcom, ale wyraźnie aspirują do tego, by wydać kolejne dzieło sztuki w gatunku komputerowej grozy.",
+        "thumbnail": "https://planetagracza.pl/wp-content/uploads/2024/03/alone-in-the-dark-recenzja-gry-na-ps5.webp",
+        "title": "Recenzja Alone in the Dark. Wielki powrót „dziadka” survival horrorów",
+        "author_id": 1,
+        "game_id": 8
+      },
+      {
+        "id": 9,
+        "created_at": "2025-04-22T23:57:13.854",
+        "minus_list": [
+          "Usunięte poziomy to jedynie ciekawostka",
+          "W praktyce bez większych zmian w oprawie"
+        ],
+        "plus_list": [
+          "Tytuł w pełni dostosowany pod PS5, ze wsparciem DualSense",
+          "Fantastyczny tryb Bez Powrotu, który znacznie zwiększa regrywalność",
+          "Symulator gry na gitarze jest zadziwiająco udany",
+          "Ciekawy dodatek w postaci usuniętych poziomów i komentarza twórców"
+        ],
+        "publish_date": "2025-04-22T23:57:13.797",
+        "score": 8,
+        "summary_content": "Jeśli za niewielkie pieniądze w formie dopłaty do edycji z PS4 możemy liczyć na fantastyczny tryb roguelike i paczkę ciekawych nowości, to mówimy nie o remasterze, a wręcz o bardzo udanym DLC",
+        "summary_title": "Niepotrzebne, ale zaskakująco atrakcyjne odświeżenie",
+        "teaser": "Ależ się gromy posypały na Naughty Dog przy okazji zapowiedzi The Last of Us Part II Remastered! Nowa wersja nowej w zasadzie gry, zdaniem wielu, nie jest w ogóle potrzebna. Też tak myślałem, ale po ograniu remastera muszę stwierdzić, że fani, jak zwykle, mogą być spokojni.",
+        "thumbnail": "https://planetagracza.pl/wp-content/uploads/2024/01/the-last-of-us-part-ii-remastered-recenzja-1.webp",
+        "title": "Recenzja The Last of Us Part II Remastered. Czy nowa wersja nowej gry jest potrzebna?",
+        "author_id": 1,
+        "game_id": 9
+      },
+      {
+        "id": 10,
+        "created_at": "2025-04-23T00:02:05.798",
+        "minus_list": [
+          "Okazjonalnie tanie jump scare'y"
+        ],
+        "plus_list": [
+          "Grafika, detale, szczegóły, technologia",
+          "Udźwiękowienie wraz z aktorami, muzyką, efektami",
+          "Fabuła mieszająca ze sobą tyle inspiracji, że aż ciężko je zliczyć",
+          "Zaskakująco solidna optymalizacja",
+          "Praktycznie każdy system i mechanika scalają się ze sobą wybitnie dobrze",
+          "Surrealistyczny klimat, szczególnie dla fanów Twin Peaks"
+        ],
+        "publish_date": "2025-04-23T00:02:05.742",
+        "score": 10,
+        "summary_content": "Alan Wake 2 to nie tylko wzorowa fabuła i grafika, ale najpewniej jedna z najlepszych kontynuacji gier wideo w historii.",
+        "summary_title": "Najwybitniejsze dzieło Remedy",
+        "teaser": "Remedy nie mogło zawieść, wydając Alana Wake’a 2, ale raczej mało kto spodziewał się, że będzie aż tak dobrze. Pierwsza oficjalna eskapada fińskiego studia w odmęty grozy to spełnienie mokrych marzeń u fanów Twin Peaks, Davida Lyncha, a nawet True Detective, ale tak wzorowe, że nie dziwota, iż czekaliśmy na to 13 lat.",
+        "thumbnail": "https://planetagracza.pl/wp-content/uploads/2023/11/alan-wake-2-recenzja-pg.webp",
+        "title": "Recenzja Alan Wake 2 – To nie gra wideo. To dzieło sztuki",
+        "author_id": 1,
+        "game_id": 10
+      },
+      {
+        "id": 11,
+        "created_at": "2025-04-23T00:09:06.973",
+        "minus_list": [
+          "Sztampowa fabuła",
+          "Bezbarwny główny bohater",
+          "Brak swobody w rozwijaniu charakteru postaci",
+          "Oprawa graficzna bez efektu WOW",
+          "Edukacja magiczna dla przedszkolaków",
+          "Bardzo ograniczone miejsce w ekwipunku",
+          "Zbyt proste zagadki"
+        ],
+        "plus_list": [
+          "Ogromny, otwarty świat pełen aktywności",
+          "Duża różnorodność czarów",
+          "Ciekawe zadania poboczne",
+          "Klimat baśni i magii wylewa się z ekranu",
+          "Przejrzysty interfejs użytkownika",
+          "Świetny projekt Hogwartu"
+        ],
+        "publish_date": "2025-04-23T00:09:06.919",
+        "score": 9,
+        "summary_content": "Nie prędko zobaczymy RPG o porównywalnie ciekawym uniwersum, więc Dziedzictwo Hogwartu zaplusowało na dzień dobry. Ale otwarty świat i klimat mają swoje granice, które zacieśnia dziecinna fabuła i niewykorzystany potencjał zaklęć.",
+        "summary_title": "Najlepsza gra z uniwersum Harry'ego Pottera",
+        "teaser": "Ogromny świat, popularne uniwersum i rozgrywka na dziesiątki godzin. Oto recenzja Dziedzictwo Hogwartu, przez którą machniecie na mnie różdżką.",
+        "thumbnail": "https://planetagracza.pl/wp-content/uploads/2023/02/dziedzictwo-hogwartu_20230210020547.jpg",
+        "title": "Recenzja Dziedzictwo Hogwartu. Magiczny RPG z niewybaczalnymi pomysłami",
+        "author_id": 1,
+        "game_id": 11
+      },
+      {
+        "id": 12,
+        "created_at": "2025-04-23T11:17:49.892",
+        "minus_list": [
+          "Wielkiej rewolucji w samej rozgrywce nie ma",
+          "(W dalszym ciągu) głupota przeciwników",
+          "Problemy z optymalizacją na PC, a przynajmniej w testowanej wersji",
+          "Czasami \"tanie chwyty\" w samym sposobie przedstawienia historii"
+        ],
+        "plus_list": [
+          "Tak samo wspaniała fabuła (a być może nawet lepsza!)",
+          "Głębsza psychologia postaci pobocznych",
+          "Rozwinięcie praktycznie każdego elementu rozgrywki",
+          "Grafika i przecudowne pejzaże",
+          "Muzyka! Wirtuozeria! Requiem!",
+          "Bardzo. Dużo. Szczurów."
+        ],
+        "publish_date": "2025-04-23T11:17:49.804",
+        "score": 8,
+        "summary_content": "A Plague Tale: Requiem nie jest wielkim krokiem w przód, a bardziej naturalną ewolucją genialnej poprzedniczki. Fabułę po prostu należy poznać, szczególnie jeśli jesteście fanami Innocence, ale pod względem mechaniki raczej nie ma sensu szukać tutaj czegokolwiek, co wyrwie Was z kapci.",
+        "summary_title": "Istny szczurzy armageddon, ale są też minusy",
+        "teaser": "Średniowieczna opowieść o szczurzej apokalipsie i rodzinnych więzach doczekała się kontynuacji, która chce „bardziej”, „lepiej” i „mocniej”. Nie skłamię, jeżeli powiem, iż jest to iście next-genowa przygoda dla każdego fana klasycznych, „epickich” opowieści. Skłamię, jeśli stwierdzę, że Asobo Studio nauczyło się na błędach. To requiem dochodzi do świetnego 8. taktu, ale niemal nigdy nie przekracza poziomu swojej poprzedniczki.",
+        "thumbnail": "https://planetagracza.pl/wp-content/uploads/2022/10/a-plague-tale-recenzja-1-pg.jpg",
+        "title": "Recenzja A Plague Tale: Requiem. Szczurza msza żałobna",
+        "author_id": 1,
+        "game_id": 12
+      },
+      {
+        "id": 13,
+        "created_at": "2025-04-23T11:22:01.982",
+        "minus_list": [
+          "Techniczne niedoskonałości",
+          "Kiepsko rozłożone punkty kontrolne",
+          "Kilka dziur w fabule"
+        ],    
+        "plus_list": [
+          "Historia wciągająca niczym kocimiętka",
+          "Duet bohaterów daje się lubić (choć jego połowa jest niema)",
+          "Intrygujący świat pełen sekretów",
+          "Piękna i stylowa grafika",
+          "Prosty, ale oryginalny pomysł na rozgrywkę",
+          "Satysfakcjonujące zagadki"
+        ],
+        "publish_date": "2025-04-23T11:22:01.938",
+        "score": 8,
+        "summary_content": "Prześliczna i wciągająca opowieść o kocie i jego dronie. Stray jest pełne ciekawych pomysłów i sekretów, które chce się poznawać. To jedna z najciekawszych gier tego roku.",
+        "summary_title": "Piękna podróż na czterech łapach",
+        "teaser": "Raz na jakiś czas zdarza się, że w sieci pojawia się zapowiedź gry, która zachwyca nie tyle piękną oprawą i złożoną rozgrywką, co wyjątkowym pomysłem. Tak było w przypadku Stray – gry, w której sterujemy słodkim kotem. Ale czy sam pomysł wystarczy, aby zadowolić graczy?",
+        "thumbnail": "https://planetagracza.pl/wp-content/uploads/2022/07/stray-graf-pg.jpg",
+        "title": "Recenzja Stray. Przygoda z pazurami, ale nie tylko dla kociarzy",
+        "author_id": 1,
+        "game_id": 13
+      },
+      {
+        "id": 14,
+        "created_at": "2025-04-23T11:26:34.71",
+        "minus_list": [
+          "To dalej jest gra?",
+          "Animacje postaci i wygląd niektórych lokacji",
+          "Okazjonalne dłużyzny, także w drugiej połowie opowieści"
+        ],
+        "plus_list": [
+          "Fenomenalny scenariusz (szczególnie dla fanów slasherów)",
+          "Świetnie napisane postacie",
+          "Godne podziwu animacje twarzy",
+          "Wybory, które faktycznie coś znaczą"
+        ],
+        "publish_date": "2025-04-23T11:26:34.665",
+        "score": 9,
+        "summary_content": "Supermassive wykreowało świetne postacie i angażujący scenariusz, ale przekuło to w grę, która nie oferuje zbyt wiele... grania. Weźcie dużo popcornu, to będzie bardzo długi seans.",
+        "summary_title": "Fantastyczny interaktywny horror",
+        "teaser": "Nie trzeba być znawcą horrorów, aby wiedzieć, że te wakacje nie będą normalne. Grupa nastolatków w lesie bez nadzoru wręcz prosi się o to, aby po kolei ich brutalnie mordować. Zresztą, kto o zdrowych zmysłach przyjeżdża na obóz, którego hasłem jest „Co cię nie zabije, to cię wzmocni”?",
+        "thumbnail": "https://planetagracza.pl/wp-content/uploads/2022/06/the-quarry-recenzjaa.jpg",
+        "title": "Recenzja The Quarry. Najdłuższy film, w jaki grałem",
+        "author_id": 1,
+        "game_id": 14
+      },
+      {
+        "id": 15,
+        "created_at": "2025-04-23T11:57:47.772",
+        "minus_list": [
+          "Bez znajomych do co-opa może nużyć",
+          "Nieciekawa historia"
+        ],  
+        "plus_list": [
+          "To prawie jak Left 4 Dead 3 - fani serii będą zadowoleni",
+          "Satysfakcjonujący model walki",
+          "System kart to miłe urozmaicenie"
+        ],
+        "publish_date": "2025-04-23T11:57:47.722",
+        "score": 6,
+        "summary_content": "Back 4 Blood nie zawodzi jako kooperacyjna strzelanka i właśnie jako takowa sprawdzi się najlepiej. Jeśli jednak zamierzacie grać w kampanię samotnie, z botami, możecie się wynudzić. Jeśli poszukujecie bardzo solidnej produkcji do pogrania ze znajomymi i/lub uwielbiacie Left 4 Dead, będziecie bardzo zadowoleni.",
+        "summary_title": "Solidna gra, ale dla niektórych to będzie za mało",
+        "teaser": "Przyszła pora na premierę Back 4 Blood. Tytuł reklamowany jest jako następca serii Left 4 Dead i pracują przy nim też niektórzy twórcy wspomnianej serii. Czy gra Turtle Rock stanowi dobrą kontynuację wizji tego klasyka?",
+        "thumbnail": "https://planetagracza.pl/wp-content/uploads/2021/10/back-4-blood-pg.jpeg",
+        "title": "Recenzja Back 4 Blood. Dla jednych masa frajdy, dla drugich sposób na sen",
+        "author_id": 1,
+        "game_id": 15
+      },
+      {
+        "id": 16,
+        "created_at": "2025-04-23T13:04:36.977",
+        "minus_list": [
+          "SI przeciwników często szwankuje",
+          "Większe i mniejsze błędy"
+        ],
+        "plus_list": [
+          "Gameplay, gameplay i jeszcze raz gameplay",
+          "Projekty poziomów z najwyższej ligi",
+          "Otwartość na pomysły graczy",
+          "Wciągająca historia",
+          "Fantastyczne, przepełnione humorem dialogi",
+          "Multiplayer to miłe urozmaicenie",
+          "Ciesząca oko i ucho oprawa audiowizualna, w tym polski dubbing"
+        ],
+        "publish_date": "2025-04-23T13:04:36.91",
+        "score": 9,
+        "summary_content": "Deathloop to jedna z najlepszych produkcji tego roku. Skradany shooter od Arkane Studios oferuje satysfakcjonującą rozgrywkę, przyjemną oprawę i nie zawodzi też pod względem historii. To pozycja obowiązkowa nie tylko dla fanów Arkane.",
+        "summary_title": "Arkane Studios znów nie zawodzi",
+        "teaser": "Deathloop od uznanego studia Arkane wreszcie trafia do graczy. Jak wypada najnowszy, nietypowy, skradany FPS od twórców Dishonored?",
+        "thumbnail": "https://planetagracza.pl/wp-content/uploads/2021/09/blierblie.jpg",
+        "title": "Recenzja Deathloop. Pętla, którą mógłbym rozplątywać bez końca",
+        "author_id": 1,
+        "game_id": 16
+      }
+    ]
+  }
