@@ -4,7 +4,7 @@ import FormInput from "../form/form-input.component"
 import { useState, useEffect } from "react"
 
 interface SearchInputProps {
-    onSearchResults: (data: any) => void
+    onSearchResults: () => void
     placeholder?: string
 }
 
@@ -36,7 +36,7 @@ const SearchInput = ({ onSearchResults, placeholder}: SearchInputProps) => {
             setIsSearching(true)
             fetchSearch()
         } else {
-            onSearchResults({content: [], page: {size: 0, totalElements: 0, totalPages: 0, number: 0}})
+            onSearchResults()
             setIsSearching(false)
         }
     },[debounceResults])

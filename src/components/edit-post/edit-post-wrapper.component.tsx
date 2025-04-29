@@ -105,27 +105,6 @@ const EditPostWrapper = () => {
     const removeGame = () => {
         setSelectedGame({ title: "", id: 0 })
     }
-
-    const chooseGame = (game: string, id?: number) => {
-        setSelectedGame({ title: game , id: id ?? 0 })
-    }
-
-    const getUpdatedFields = (original: any, updated: any, exclude: string[] = []) => {
-        const changed: Record<string, any> = {};
-    
-        for (const key in updated) {
-            if (exclude.includes(key)) continue;
-    
-            const originalVal = original[key] ?? null;
-            const updatedVal = updated[key] ?? null;
-    
-            if (originalVal !== updatedVal) {
-                changed[key] = updatedVal;
-            }
-        }
-    
-        return changed;
-    };
     
     useEffect(() => {
         const fetchExistingNews = async () => {
@@ -149,33 +128,6 @@ const EditPostWrapper = () => {
 
     const handleFormSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault()
-        const updatedFormData = {
-            ...formData,
-            title: reviewTitle,
-            thumbnail: previewThumbnail ?? "",
-            teaser: teaser,
-            content: content,
-            summaryTitle: summaryTitle,
-            summaryContent: summaryContent,
-            plusList: plusList,
-            minusList: minusList,
-            score: score,
-            publishDate: new Date().toISOString(),
-            author_id: user?.id ?? 1,
-            game_id: selectedGame.id,
-        };
-        
-        const adjustExistingData = {
-            author_id: postAuthorId,
-            game_id: currentPostGameId
-        }
-
-        const changedData = getUpdatedFields(adjustExistingData, updatedFormData,["publishDate",'author_id']);
-        if (Object.keys(changedData).length === 0) {
-            toast("Nic nie zmieniono");
-            return;
-        }
-
         toast.success("Zaktualizowano pomyślnie")
 
         setTimeout(() => {
@@ -267,7 +219,7 @@ const EditPostWrapper = () => {
                     {selectedGame.title ?
                         <SelectedGame text={selectedGame.title} event={removeGame} />
                     : 
-                        <SearchBox event={chooseGame} />
+                        <SearchBox/>
                     }
                     <FormInput 
                         icon="material-symbols:title-rounded" 
