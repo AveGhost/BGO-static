@@ -123,7 +123,7 @@ const AddPostWrapper = () => {
             <FormInput icon="material-symbols:title-rounded" type="text" placeholder="Wpisz tytuł recenzji" name="title" value={reviewTitle} event={(e) => setReviewTitle(e.target.value)} />
             {!previewThumbnail ?
             <UploadImage setPreviewThumbnail={setPreviewThumbnail} previewThumbnailUrl={previewThumbnailUrl} setPreviewThumbnailUrl={setPreviewThumbnailUrl} height="min-h-[300px]"/>
-            : <PreviewImage classes="w-[1200px] h-[650px]" previewImage={previewThumbnail} deleteImage={() => setPreviewThumbnail(undefined)}/>}
+            : <PreviewImage classes="xl:w-[1200px] xl:h-[650px] h-[450px] w-[100%]" previewImage={previewThumbnail} deleteImage={() => setPreviewThumbnail(undefined)}/>}
             <FormTextArea value={teaser} placeholder="Krótka zajawka..." name="teaser" event={(e) => setTeaser(e.target.value)} />
             {content.map((field,index) => (
                 field.type === 'HEADING' ?
