@@ -4,7 +4,7 @@ import { Roles } from "@/types/RoleTypes"
 const EditPost = () => {
     return (
         <RequireAuth role={Roles.ADMINISTRATOR || Roles.EDITOR}>
-            <div className="container max-w-[1200px] mx-auto py-6">
+            <div className="container max-w-[1200px] mx-auto py-6 px-4">
                 <EditPostWrapper />
             </div>
         </RequireAuth>
