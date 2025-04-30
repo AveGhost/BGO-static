@@ -12,6 +12,7 @@ interface responseTypes {
 
 const ListingWrapper = ({ posts }: { posts: responseTypes }) => {
   const { isGrid } = useContext(HomeLayoutContext)!
+  console.log(posts)
   return (
     <>
       <div className={`grid ${isGrid ? "xl:grid-cols-4 md:grid-cols-2 sm:grid-cols-1" : "grid-cols-1"} gap-8 py-8 px-4 container mx-auto`}>
@@ -25,7 +26,7 @@ const ListingWrapper = ({ posts }: { posts: responseTypes }) => {
             image={item.thumbnail}
             title={item.title}
             description={item.teaser}
-            author={{ name: 'AveGhost', date: item.publishDate }}
+            author={{ name: 'Admin', date: item.publish_date }}
           />
         ))}
       </div>

@@ -5,7 +5,7 @@ export interface newsTypes {
     id: number
     minusList?: string[]
     plusList?: string[]
-    publishDate?: string
+    publish_date?: string
     score: number
     summaryContent?: string
     teaser: string

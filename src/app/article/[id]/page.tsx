@@ -28,7 +28,7 @@ const SinglePage = async ({params}: PageProps) => {
     const content = newsRichContent.filter(item => content_id.includes(item.id))
     return (
         <section className="py-6 container mx-auto px-4 xl:px-0">
-            <Hero title={news.title} publishDate={news.publish_date} author={{firstName: 'AveGhost'}} image={news.thumbnail} />
+            <Hero title={news.title} publishDate={news.publish_date} author={{firstName: 'Admin'}} image={news.thumbnail} />
             <div className="xl:grid xl:grid-cols-[180px_1fr]">
                 {content.map((item: ArticleItemProps) => {
                     return <Article key={item.id} item={item} />
@@ -37,7 +37,7 @@ const SinglePage = async ({params}: PageProps) => {
                     <SummaryCard rate={news.score} gameTitle={game.title} summaryContent={news.summary_content} summaryTitle={news.summary_title} />
                     <RatingTable pluses={news.plus_list} minuses={news.minus_list} />
                     <div className="bg-zinc-800 rounded-lg">
-                        <AuthorCard classes="grid grid-cols-[auto_1fr]" avatar="/avatar.png" name={"AveGhost"} role={"Administrator"} description="Specjalista od Groznawstwa, który nie stroni od swoich ulubionych tytułów. Rzadko się do tego przyznaje, ale ma prawie 2000 godzin na liczniku w Path of Exile. Pozostałe dwa tytuły w jego świętej trójcy to Assassin’s Creed: Origins oraz Final Fantasy XV. Miłośnik RPG i hack’n’slash, dla którego najważniejsza jest dobra historia, a ściany tekstu są plusem. Po godzinach pisze do szuflady, pije niepokojąco duże ilości kawy i często wraca do swoich ulubionych seriali (o Hannibalu prawdopodobnie gadałby nawet w trumnie)."/>
+                        <AuthorCard classes="grid grid-cols-[auto_1fr]" avatar="/avatar.png" name={"Admin"} role={"Administrator"} description="Specjalista od Groznawstwa, który nie stroni od swoich ulubionych tytułów. Rzadko się do tego przyznaje, ale ma prawie 2000 godzin na liczniku w Path of Exile. Pozostałe dwa tytuły w jego świętej trójcy to Assassin’s Creed: Origins oraz Final Fantasy XV. Miłośnik RPG i hack’n’slash, dla którego najważniejsza jest dobra historia, a ściany tekstu są plusem. Po godzinach pisze do szuflady, pije niepokojąco duże ilości kawy i często wraca do swoich ulubionych seriali (o Hannibalu prawdopodobnie gadałby nawet w trumnie)."/>
                     </div>
                 </div>
             </div>
